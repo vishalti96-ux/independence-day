@@ -40,3 +40,30 @@ ul{
     text-align: center;
     text-shadow: 4px 5px 8px;
 }
+/* For mobile Screen */
+
+@media screen and (max-width:800px) {
+    img{
+        width: 15%;
+    }
+    #title{
+        font-size: 3vh;
+    }
+    #data{
+        box-shadow: 10px 10px 10px #85837a;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* border: 2px solid black; */
+        width: 100%;
+       
+    }
+    #img1{
+        position: fixed;
+        left: 2%;
+        top: 5%;
+    }
+    #img2{
+        position: fixed;
+        right: 2%;
+        top: 2%;
+    }
+}
